@@ -1,0 +1,42 @@
+
+/* styles.css — completa les seccions seguint l'enunciat */
+/* 1) Reset bàsic i tipografia */
+body { margin:0; padding:0; line-height:1.4; font-family: "Georgia", serif; }
+#page { width: 920px; margin: 0 auto; }
+
+/* 2) Capçalera i eslògan */
+#header { /* TODO: fons, marges, padding i decoració */ }
+#header .slogan { /* Pista: prova :first-letter o :first-line si vols */ }
+
+/* 3) Menú horitzontal amb llista */
+#nav ul { list-style: none; margin:0; padding:0; }
+#nav li { display:inline; /* o usa float si ho prefereixes */ }
+#nav a:link, #nav a:visited { text-decoration:none; }
+#nav a:hover { text-decoration:underline; }
+#nav a:active { /* estil actiu */ }
+
+/* 4) Dues columnes clàssiques amb floats */
+#main { /* Pista: float:left + width */ }
+#aside { /* Pista: float:right + width */ }
+#content { /* Resol el col·lapse amb clearfix o overflow */ }
+.clear { clear: both; }
+
+/* 5) Taula bàsica sense nth-child */
+.dades { border-collapse: collapse; width:100%; }
+.dades th, .dades td { border:1px solid #444; padding:6px; }
+.dades th { background:#eee; }
+
+/* 6) Bloc de notícies i llistes */
+.news { list-style: square inside; }
+
+/* 7) Peu */
+#footer { text-align:center; font-size:90%; color:#666; border-top:1px solid #ccc; }
+
+/* 8) Exemple de combinador */
+#main > h2 + p.lead { font-style: italic; }
+
+/* 9) Impressió */
+@media print {
+  #nav, #aside { display:none; }
+  #page { width:auto; }
+}

@@ -33,18 +33,3 @@ npm test             # executa validació HTML, lint CSS i comprovacions de norm
 - Puja els fitxers al repo i verifica que l’**Autograder** d’aquest assignment marca verd.
 - Arxius requerits: `index.html`, `styles.css`, `q-css2.md`, `AUTO.md`.
 
-## Per al docent
-- Aquest repo és **template** per GitHub Classroom.  
-- Porta **autograding** amb punts (100) i *workflow* per avaluació.
-
-### Com publicar com a Template i crear Assignment
-1. Crea un repo amb aquest contingut i, a **Settings → General**, activa **Template repository**.  
-2. Si cal, fes-lo **public** o propietat de l’**organització** del Classroom (recomanat).  
-3. A **GitHub Classroom**, crea **Assignment** i tria aquest **template**.  
-4. (Opcional) No afegeixis tests via GUI si **ja** portes `.github/classroom/autograding.json` + `classroom.yml` en el template.
-
-> Referència: “Create an assignment from a template repository” i “Creating a template repository” a la documentació oficial de GitHub.
-
----
-
-© 2025 — DAM 0373 (ús docent).
