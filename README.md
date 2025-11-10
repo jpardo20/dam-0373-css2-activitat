@@ -1,13 +1,17 @@
 
 # DAM 0373 — Activitat "CSS clàssic (CSS2)"
 
-> **Modalitat:** individual (o parelles, nota individual).
+> **Modalitat:** individual
 
 ## Enunciat
 
-1) **Qüestionari** (`q-css2.md`): teoria de selecció, cascada, herència, box model, posicionament.
+1) **Qüestionari** (**`q-css2.md`**): teoria de selecció, cascada, herència, box model, posicionament.
 
-2) **Maquetació:** estilitza `index.html` només amb CSS **clàssic** (no Flex, no Grid, no `var()`, no `:is/:has/:where`, etc.).
+> 
+> Respon editant el fitxer [**`q-css2.md`**](./q-css2.md) del teu repositori.
+>
+
+2) **Maquetació:** estilitzant `index.html` i només fent servir CSS **clàssic** (no **`Flex`**, no **`Grid`**, no **`var()`**, no **`:is/:has/:where`**, etc.).
 
 
 ### Requisits clau
