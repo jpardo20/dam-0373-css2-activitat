@@ -1,8 +1,5 @@
 
-# DAM 0373 — Activitat “CSS clàssic (CSS2)” — *Template Classroom*
-
-> **Durada a classe:** 2 h (lectura prèvia del curs històric CSS2).  
-> **Modalitat:** individual (o parelles, nota individual).
+# DAM 0373 — Activitat ***CSS clàssic (CSS2)***
 
 ## Enunciat (resum)
 1) **Qüestionari** (`q-css2.md`): teoria de selecció, cascada, herència, box model, posicionament.

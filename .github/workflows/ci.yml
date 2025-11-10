@@ -1,4 +1,3 @@
-
 name: CI — HTML/CSS checks
 
 on:
@@ -10,20 +9,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: 'npm'
-
       - name: Install dev dependencies
-        run: npm ci
-
+        run: npm install
       - name: HTML validate
         run: npm run -s test:html
-
       - name: CSS lint
         run: npm run -s test:css
-
       - name: Rules (no CSS modern + requisits)
         run: npm run -s test:rules

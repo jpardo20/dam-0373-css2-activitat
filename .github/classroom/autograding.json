@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "HTML valida (html-validate)",
-      "setup": "npm ci",
+      "setup": "npm install",
       "run": "npm run -s test:html",
       "input": "",
       "output": "",
